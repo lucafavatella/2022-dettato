@@ -1,2 +1,2 @@
-source: srv/www
+source: /srv/www
 theme: jekyll-theme-minimal
