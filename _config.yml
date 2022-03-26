@@ -1,2 +1,3 @@
 #source [cannot be changed](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#configuring-jekyll-in-your-github-pages-site).
+strict_front_matter: true
 theme: jekyll-theme-minimal
