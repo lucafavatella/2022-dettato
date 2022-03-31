@@ -1,0 +1,10 @@
+{% assign words = include.txt | split: " " %}
+{% for w in words %}
+<div>
+  <input
+    type="text"
+    pattern="{{ w }}"
+    style="input:invalid + span::before { content: '✖'; color: red; }; input:valid + span::before { content: '✓'; color: green; };"
+    />
+</div>
+{% endfor %}
